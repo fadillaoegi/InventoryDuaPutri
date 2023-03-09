@@ -17,5 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/dashboard', function () {
-    return view('contohLayout/');
+    return view('contohLayout/main');
 });
+
+// Route::get('/pembayaran/invoice', [MemberController::class, 'invoice'])->name('member.invoice');
